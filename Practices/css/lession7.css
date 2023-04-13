@@ -1,0 +1,74 @@
+.seven-a{
+width: 200px;
+border-radius: 15px;
+}
+.seven-b{
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.seven-c{
+width: 200px;
+    border-radius: 100px;
+}
+div{
+    margin: 15px;
+}
+.seven-d{
+width: 150px;
+height: 27px;
+border: 1px solid gray;
+border-radius: 5px;
+font-size: 12px;
+}
+.seven-e{
+
+    width: 300px;
+    height: 22px;
+    border: none;
+    border-radius: 10px;
+    font-size: 10px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 5px rgba(56, 53, 53, 0.15), -2px -2px 5px rgba(56, 53, 53, 0.15);
+}
+.seven-f{    
+    font-family: Arial;
+    font-size: 10px;
+}
+.search-bar{
+    width: 200px;
+    border: 2px solid rgb(100, 100, 100);;
+}
+
+.label{
+    display: block;
+    margin-bottom: 5px;
+}
+.agree-and-join-button{
+    font-size: 12px;
+    padding: 10px 80px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: rgb(55, 106, 184);
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    vertical-align:middle;
+    border-radius: 20px;
+}
+.text-box{
+    border: none;
+    width: 200px;
+    vertical-align: middle;
+}
+.tweet-button{
+ background-color: rgb(68, 150, 216);
+padding: 5px 10px;
+font-size: 12px;
+color: white;
+border: none;
+vertical-align: middle;
+border-radius: 20px;
+}

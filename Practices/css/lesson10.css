@@ -1,0 +1,130 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.animal{
+    width: 360px;
+    border: 1px solid grays;
+}
+.profile-picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.profile-info{
+    width: 150px;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 5px;
+}
+.profile-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.follow-button{
+    display: inline-block;
+}
+.follow-button button{
+    background-color: rgb(93, 148, 237);
+    font-size: 10px;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.name{
+    font-weight: bold;
+}
+.animal-name,.popular{
+    color: gray;
+}
+.lesson10-c p{
+    margin-top: 0px;
+}
+.lesson10-c{
+    margin-top: 20px;
+    width: 700px;
+}
+.video-thumbnail{
+    display: inline-block;
+    margin-right: 4px;
+}
+.thumbnail{
+    vertical-align: top;
+    width: 180px;
+}
+.video-info{
+    width: 220px;
+    vertical-align: top;
+    display: inline-block;
+}
+.video-title{
+    font-weight:500;
+    line-height: 20px;
+    font-size: 14px;
+}
+.video-auther,.video-status{
+    font-size: 12px;
+    color: rgb(96,96,96);
+    line-height: 10px;
+}
+.video-preview{
+    margin-bottom: 10px;
+}
+.profile-preview p{
+    margin-bottom: 0;
+}
+.profile-preview{
+    display: inline-block;
+    margin-right: 8px;
+    width: 110px;
+    height: 205px;
+    border: none;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.15),-2px -2px 5px rgba(0,0,0,0.15);
+}
+.profile-photo{
+    width: 110px;
+    height: 120px; 
+}
+.profile-icon{
+    width: 110px;
+    height: 120px;
+}
+.profile-name{
+    font-weight: bold;
+}
+.friend-icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.icon-picture{
+width: 20px;
+height: 20px;
+border-radius: 10px;
+
+}
+.friends-count{
+    display: inline-block;
+}
+.mutual-friends{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.count{
+color: rgb(96,96,96);
+font-size: 10px;
+}
+.add-friend-button{
+    color: white;
+    background-color: rgb(31, 105, 217);
+    border: none;
+    font-size: 10px;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+.profile-info{
+    margin-left: 4px;
+}

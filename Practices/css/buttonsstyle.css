@@ -1,0 +1,205 @@
+button{
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+.subscribe {
+    border: 1px solid;
+    background-color: rgb(214, 5, 5);
+    padding: 10px 8px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    transition: opacity .15s;
+}
+.subscribe:hover{
+    opacity: 0.8;
+}
+.subscribe:active{
+    opacity: 0.5;
+}
+
+.join {
+    padding: 8px 10px;
+    background-color: white;
+    border: 1px solid #0aa3ea;
+    border-radius: 2px;
+    color: #0aa3ea;
+    transition: background-color 1s, color 1s;
+
+}
+
+.join:hover{
+    background-color: #0aa3ea;
+    color:white ;
+}
+.join:active{
+    opacity: 0.7;
+}
+
+.tweet {
+    padding:10px 18px 10px 18px;
+    border: none;
+    color: white;
+    background-color: #0aa3ea;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: box-shadow 0.15ss;
+}
+.tweet:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.request-now{
+    background-color: black;
+    color: white;
+    padding: 10px 14px;
+    font-size: 12px;
+    border: none;transition: opacity 0.15s;
+
+}
+.request-now:hover{
+    opacity: 0.7;
+}
+.add-to-cart{
+    padding: 8px 45px;
+    color: black;
+    border: none;
+    background-color: rgb(255, 216, 20);
+    border-radius: 16px;
+    font-size: 14px;
+    transition: background-color 0.15s;
+}
+.add-to-cart:hover{
+    background-color: rgb(220, 185, 10);
+}
+.sign-up{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: box-shadow 0.15s;
+}
+.sign-up:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.get-started{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 3px;
+    margin-right: 0px;
+    transition: background-color 0.15s;
+}
+.get-started:hover{
+    background-color:  rgb(86, 47, 143);
+}
+.download{
+    background-color: snow;
+    border: solid gray 1px;
+    padding: 9px 16px;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    border-radius: 3px;
+    margin-left: 5px;
+    transition: background-color 1s,color 1s;
+}
+.download:hover{
+    background-color: gray;
+    color: snow;
+}
+.apply-on-company-website{
+    background-color: rgb(10,102,194);
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 0px;
+    transition: background-color 0.15s;
+}
+.apply-on-company-website:hover{
+    background-color:  rgb(9, 52, 94);
+}
+.save{
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid rgb(10,102,194);
+    border-radius: solid 2px;
+    color: rgb(10,102,194);
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+    transition: border-width 0.15s;
+    position: absolute;
+    
+}
+.save:hover{
+    border-width: 2px;
+}
+div{
+    background-color: lightpink;
+    margin: 5px;
+    display: inline-block;
+}
+.amazon-add-to-cart{
+    padding: 7px 25px;
+    color: black;
+    border: none;
+    background-color: rgb(255, 216, 20);
+    border-radius: 16px;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: opacity 0.15s,background-color 0.15s;
+
+}
+.amazon-add-to-cart:hover{
+    background-color: rgb(216, 182, 13);
+}
+.amazon-add-to-cart:active{
+    opacity: 0.6;
+}
+.amazon-buy-now{
+    padding: 7px 25px;
+    color: black;
+    border: none;
+    background-color: rgb(255, 164, 28);
+    border-radius: 16px;
+    font-size: 14px;
+    margin-left: 0px;
+    transition: opacity 0.15s,background-color 0.15s;
+}
+.amazon-buy-now:hover{
+    background-color:  rgb(191, 120, 15);
+}
+.amazon-buy-now:active{
+    opacity: 0.6;
+}
+.rate{
+    color: rgb(0,188,0);
+    font-weight: bold;
+}
+.amazon{
+    border: solid gray 1px ;
+    margin: 20px;
+    background-color: white;
+    display: grid;
+    width: 300px;
+}
+.checkout-buttons{
+    background-color: white;
+    justify-content: center;
+}
+
+.link{
+    transition: color 0.15s;
+}
+.link:hover{
+    color: orange;
+}

@@ -1,0 +1,90 @@
+.grid-1{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.grid-2 .col1,.col3{
+    background-color: lightblue;
+}
+.grid-2 .col2{
+    background-color: lightpink;
+}
+.grid-3 div{
+    background-color: lightpink;
+}
+.grid-1 .p1{
+    background-color: lightblue;
+}
+.grid-1 .p2{
+    background-color: lightpink;
+}
+.grid-1,.grid-2,.grid-3{
+    margin-bottom: 30px;
+}
+.lesson11-b{
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+    column-gap: 10px;
+}
+.profile-preview p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.profile-preview{
+    border: none;
+    height: 210px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.15),-2px -2px 5px rgba(0,0,0,0.15);
+}
+.profile-photo{
+    width: 110px;
+    height: 120px; 
+}
+.profile-icon{
+    width: 110px;
+    height: 120px;
+}
+.profile-name{
+    font-weight: bold;
+}
+.friend-icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.icon-picture{
+width: 20px;
+height: 20px;
+border-radius: 10px;
+
+}
+.friends-count{
+    display: inline-block;
+}
+.mutual-friends{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.count{
+color: rgb(96,96,96);
+font-size: 10px;
+}
+.add-friend-button{
+    color: white;
+    background-color: rgb(31, 105, 217);
+    border: none;
+    font-size: 10px;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+.profile-info{
+    margin-left: 4px;
+}

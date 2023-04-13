@@ -1,0 +1,120 @@
+.square{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.circle{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.lesson9-c{
+    width: 300px;
+    border: 1px solid rgb(174, 169, 169);
+    padding: 10px;
+}
+.lesson9-d{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    width: 350px;
+    height: 100px;
+    background-color: rgb(43, 41, 41);
+    padding: 10px;
+}
+.heading{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.instruction{
+    color: rgb(134, 130, 130);
+}
+.lesson9-e{
+    width: 320px;
+    height: 60px;
+    margin: 15px;
+    padding-left: 10px;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.15), -3px -3px 5px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    vertical-align:middle;
+    border-radius: 20px;
+}
+.text-box{
+    border: none;
+    width: 200px;
+    vertical-align: middle;
+}
+.tweet-button{
+ background-color: rgb(68, 150, 216);
+padding: 5px 10px;
+font-size: 12px;
+color: white;
+border: none;
+vertical-align: middle;
+border-radius: 20px;
+}
+.lesson9-f{
+    display: inline-block;
+    margin: 10px;
+    line-height: 7px;
+    width: 200px;
+    height: 310px;
+    border: none;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.15), -3px -3px 5px rgba(0,0,0,0.15);
+}
+.thumbnail-1{
+    width: 200px;
+    height: 200px;
+}
+.oliver{
+    font-weight: bold;
+}
+.mutual-friends{
+    font-size: 15px;
+    color: rgb(98, 96, 96);
+}
+.add-friend-button{
+background-color: rgba(12, 84, 216, 0.884);
+   padding: 6px 10px;
+   border-radius: 4px;
+   border: none;
+   color: rgba(255, 255, 255, 0.861);
+   margin-bottom: 5px;
+}
+.people-about{
+padding: 5px;
+}
+.lesson8-c{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+     align-items: center;
+     left: 0;
+     margin-bottom: 20px;
+     font-family: 'Roboto';
+    }
+    .google-logo{
+        margin-bottom: 10px;
+    width: 200px;
+    }
+    .google-search-bar{
+        width: 400px;
+        padding: 8px;
+        border-radius: 20px;
+        border: none;
+        font-size: 12px;
+        box-shadow: 2px 2px 5px 2px rgba(12, 12, 12, 0.15),-2px -2px 5px rgba(12, 12, 12, 0.15);
+        }
+        .suggetion button{
+            margin: 25px 5px;
+            background-color: rgba(225, 219, 219, 0.356);
+            border: none;
+            padding: 8px 10px;
+        }

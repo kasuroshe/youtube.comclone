@@ -1,0 +1,17 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+.heading{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.order{
+    font-size: 25px;
+}
+.link{
+    margin-top: 0px;
+    text-decoration: underline;
+}

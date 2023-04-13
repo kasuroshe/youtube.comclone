@@ -1,0 +1,201 @@
+.session13-a {
+    display: flex;
+    height: 60px;
+}
+
+.item1-flex {
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    background-color: black;
+    color: white;
+}
+
+.item2 {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.session13-b {
+    margin: 20px;
+    display: flex;
+    height: 60px;
+}
+
+.pink {
+    background-color: lightpink;
+    width: 100px;
+}
+
+.blue {
+    background-color: lightblue;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row2-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.session13-c {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    width: 400px;
+    border: 1px solid gray;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.inbox-label {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 20px;
+}
+
+.sender-dp-icon {
+    margin-right: 10px;
+}
+
+.sender-dp {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.inbox-emails {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.email-content {
+    flex: 1;
+}
+
+.email-heading {
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sender-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.email-time {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+.email-subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.email-body {
+    color: rgb(120, 120, 120);
+}
+
+.session13-d {
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+.tweet {
+    margin: 30px;
+    border: 1px solid gray;
+    height: 163px;
+    width: 410px;
+    padding: 10px 15px;
+    font-family: 'Roboto';
+}
+
+.new-tweet {
+    display: flex;
+}
+.tweet-info{
+    height: 163px;
+}
+.profile-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.profile-icon{
+    display: flex;
+    margin-right: 10px;
+    height: 163px  
+}
+.user-name{
+font-weight: bold;
+margin-bottom: 5px;
+font-size: 14px;
+}
+.user-id{
+    margin-left: 3px;
+    color: rgb(86, 85, 85);
+    font-weight: normal; 
+}
+.tweet-message{
+   font-size: 15px;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+.reference-link{
+    display: flex;
+    height: 85px;
+    width: 340px;
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.video-thumbnail{
+    height: 85px;
+    width: 125px;
+    background-color: rgb(219, 217, 217);
+    margin-right: 10px;
+}
+.link-domain{
+    margin-left: 3px;
+    color: rgb(86, 85, 85);
+    font-weight: normal;  
+}
